@@ -8,13 +8,21 @@
     align-items: center;
     padding: 50px;
 }
+
+.header {
+    justify-content: flex-end;
+    padding-right: 200px;
+}
 .links {
+    width: 100%;
     display: flex;
+    justify-content: space-evenly;
 }
 
 ul {
     list-style-type: none;
 }
+
 
 a {
     text-decoration: none;
@@ -30,8 +38,19 @@ img {
     color: #E5E7EB;
     font-size: 18px;
     display: flex;
+    gap: 10px;
+    padding-left: 500px;
+}
+
+#first-link {
+    display: flex;
+    justify-content: left;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
     
 }
+
 
 .box {
     border: 5px solid #3882F6;
@@ -101,9 +120,37 @@ button {
     background: #3882F6;
     padding: 8px 16px;
     max-width: 100px;
+    color: #E5E7EB;
 }
 
 .another-title {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    margin: 100px 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: white;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+
+}
+
+#bottom-button {
+    border-style: double;
+    border-color: white;
+}
+
+.right-side-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-para {
+    font-size: large;
+}
+
